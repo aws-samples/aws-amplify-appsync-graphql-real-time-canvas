@@ -1,13 +1,41 @@
-## My Project
+# Real-time collaborative drawing canvas with GraphQL & AWS AppSync
 
-TODO: Fill this README out!
+![](graphqlgif1.gif)
 
-Be sure to:
+Schema:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+```graphql
+type Canvas @model {
+  id: ID!
+  clientId: String!
+  data: String!
+}
+```
 
-## License
+## To deploy this application
+
+> To deploy this application, you must have the latest version of the Amplify CLI installed & configured. To learn how to do this, check out the documentation [here](https://aws-amplify.github.io/).
+
+1. Clone the repo & change into the directory
+
+```sh
+git clone https://github.com/dabit3/appsync-graphql-real-time-canvas.git
+
+cd appsync-graphql-real-time-canvas
+```
+
+2. Deploy the GraphQL API
+
+```sh
+amplify init
+amplify push
+```
+
+3. Run the app
+```sh
+npm start
+```
+
+### License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-
