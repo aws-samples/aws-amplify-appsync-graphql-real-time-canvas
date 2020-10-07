@@ -22,8 +22,8 @@
     "axios": "^0.18.1",
     "minimist": ">=1.2.3",
     "mem": ">=4.0.0",
-    "braces": ">=2.3.1"
-    
+    "braces": ">=2.3.1",
+    "node-forge": "^0.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
