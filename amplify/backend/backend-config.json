@@ -1,11 +1,16 @@
 {
-	"api": {
-		"reactdraw": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"securityType": "API_KEY"
-			}
+	"authruletest": {
+	      "service": "AppSync",
+	      "providerPlugin": "awscloudformation",
+	      "output": {
+					"authConfig": {
+						"defaultAuthentication": {
+							"authenticationType": "API_KEY",
+							"apiKeyConfig": {
+								"apiKeyExpirationDays": 7,
+								"description": "sdfdf"
+							}
+		  	},
+		  "additionalAuthenticationProviders": []
 		}
-	}
 }
