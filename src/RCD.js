@@ -38,7 +38,7 @@ const canvasTypes = [
   }
 ];
 
-export default class extends PureComponent {
+export default class RCD extends PureComponent {
   static propTypes = {
     loadTimeOffset: PropTypes.number,
     lazyRadius: PropTypes.number,
