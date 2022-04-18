@@ -130,7 +130,7 @@ import { updateCanvas, createCanvas } from './graphql/mutations'
 //         />
       </div>
     );
-  }
+//   }
 }
 
 export default Demo
