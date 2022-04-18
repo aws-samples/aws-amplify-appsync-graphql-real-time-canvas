@@ -22,14 +22,14 @@ import { updateCanvas, createCanvas } from './graphql/mutations'
 //   return colors[~~(colors.length * Math.random())];
 // }
 
-// class Demo extends Component {
-//   state = {
+class Demo extends Component {
+  state = {
 //     brushColor: rand(),
 //     canvasHeight: 350,
 //     canvasWidth: 380,
 //     brushRadius: 4,
 //     lazyRadius: 8
-//   }
+  }
 //   lineLength = 0
 //   id = '123'
 //   clientId = uuid()
@@ -130,7 +130,7 @@ import { updateCanvas, createCanvas } from './graphql/mutations'
 //         />
       </div>
     );
-//   }
+  }
 }
 
 export default Demo
