@@ -122,12 +122,12 @@ class Demo extends Component {
   render() {
     return (
       <div>
-      <h1>Where on the page will this appear?</h1>
-        /*<button name='clearbutton' onClick={this.clear}>Clear</button>
-        <CanvasDraw
-          {...this.state}
-          ref={canvas => this.canvas = canvas}
-        /> */
+      <h1>Work in Progress</h1>
+//         <button name='clearbutton' onClick={this.clear}>Clear</button>
+//         <CanvasDraw
+//           {...this.state}
+//           ref={canvas => this.canvas = canvas}
+//         />
       </div>
     );
   }
