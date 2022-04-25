@@ -3,6 +3,11 @@
   --black: #272727;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 html {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
