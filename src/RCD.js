@@ -575,6 +575,7 @@ export default class RCD extends PureComponent {
               onTouchEnd={isInterface ? this.handleTouchEnd : undefined}
               onTouchCancel={isInterface ? this.handleTouchEnd : undefined}
             />
+                <h3>This is from RCD</h3>
           );
         })}
       </div>
