@@ -7,6 +7,8 @@ class Homepage extends Component {
       <div>
         <div className="Header">
           <h1 className="HeaderText">Greg Edmondson</h1>
+          <h2 className="HeaderSubtext">Bilingual Network Engineer</h2>
+          <h3 className="HeaderSubtext">Tokyo, Japan</h2>
           <img className="profile" width="125vw" border-radius="25px" src="https://amplify-react-draw-devo-04151-deployment.s3.ap-northeast-1.amazonaws.com/cowboy.JPG" />
         </div>
        </div>
