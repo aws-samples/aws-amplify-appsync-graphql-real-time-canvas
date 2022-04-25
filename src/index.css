@@ -36,3 +36,13 @@ p {
 input[type=number] {
   width: 50px;
 }
+
+Header {
+  width: 100vw;
+  height: 25vh;
+  background-color: black;
+}
+
+HeaderText {
+  color: white;
+}
