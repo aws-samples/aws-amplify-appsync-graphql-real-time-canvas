@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Canvas from './Canvas';
+import Homepage from './Home';
 import * as serviceWorker from './serviceWorker';
 
 import Amplify from 'aws-amplify'
