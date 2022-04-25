@@ -24,14 +24,17 @@ body {
 img {
   border-radius: 50px 50px 50px 50px;
   width: 20vw;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  margin-left: 20vw;
 }
 
-img .profile {
+/* img .profile {
 padding-top: 5vh;
 padding-bottom: 5vh;
 padding-left: 25vw;
 float: left;
-}
+} */
 
 span {
   background-color: darkgrey;
@@ -62,8 +65,14 @@ input[type=number] {
 }
 
 .HeaderText {
-  color: white;
-  padding-top: 5vh;
-  padding-right: 25vw;
+  color: #fff;
   float: right;
+  margin-right: 10vw;
+  margin-top: 5vh;
+}
+
+.HeaderSubtext {
+  color: #fff;
+  float: right;
+  margin-top: 3vh;
 }
