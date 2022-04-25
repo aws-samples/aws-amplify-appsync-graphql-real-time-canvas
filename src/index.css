@@ -22,8 +22,12 @@ body {
 }
 
 img {
-  border-radius: 25px 25px 25px 25px;
-  width: 125vw;
+  border-radius: 50px 50px 50px 50px;
+  width: 20vw;
+}
+
+img #profile {
+float: left;
 }
 
 span {
@@ -51,9 +55,10 @@ input[type=number] {
   width: 100vw;
   height: 25%;
   background-color: black;
-  text-align: center;
+/*   text-align: center; */
 }
 
 .HeaderText {
   color: white;
+  float: right;
 }
