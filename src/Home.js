@@ -6,7 +6,7 @@ class Homepage extends Component {
     return (
       <div>
         <div className="Header">
-          <h1 className="HeaderText>Greg Edmondson</h1>
+          <h1 className="HeaderText">Greg Edmondson</h1>
          </div>
       </div>
 //         <p>This is the Home.js file</p>
