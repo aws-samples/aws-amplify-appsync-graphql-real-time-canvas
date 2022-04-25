@@ -21,6 +21,11 @@ body {
   background-color: #fff;
 }
 
+img {
+  border-radius: 25px 25px 25px 25px;
+  width: 125vw;
+}
+
 span {
   background-color: darkgrey;
   padding: 0.3rem;
