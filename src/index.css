@@ -26,7 +26,7 @@ img {
   width: 20vw;
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
-  margin-left: 20vw;
+  margin-left: 3vw;
 }
 
 /* img .profile {
@@ -67,12 +67,14 @@ input[type=number] {
 .HeaderText {
   color: #fff;
   float: right;
-  margin-right: 10vw;
+  margin-right: 5vw;
   margin-top: 5vh;
+  padding-left: 15vw;
 }
 
 .HeaderSubtext {
   color: #fff;
   float: right;
-  margin-top: 3vh;
+  margin-right: 5vw;
+  padding-left: 25vw;
 }
