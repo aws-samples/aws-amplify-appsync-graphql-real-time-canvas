@@ -27,6 +27,9 @@ img {
 }
 
 img .profile {
+padding-top: 5vh;
+padding-bottom: 5vh;
+padding-left: 25vw;
 float: left;
 }
 
@@ -60,5 +63,7 @@ input[type=number] {
 
 .HeaderText {
   color: white;
+  padding-top: 5vh;
+  padding-right: 25vw;
   float: right;
 }
