@@ -1,4 +1,4 @@
-# Real-time collaborative drawing canvas with GraphQL & AWS AppSync
+# Real-time collaborative drawing canvas with GraphQL & AWS AppSync (Archived)
 
 ![](graphqlgif1.gif)
 
